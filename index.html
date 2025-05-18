@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripAdvisor Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">TripAdvisor</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search destinations...">
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Restaurants</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Filters Section -->
+  <section class="filters">
+    <input type="text" placeholder="Search city or place">
+    <select>
+      <option value="">Price Range</option>
+      <option value="low">₹</option>
+      <option value="medium">₹₹</option>
+      <option value="high">₹₹₹</option>
+    </select>
+    <select>
+      <option value="">Rating</option>
+      <option value="5">★★★★★</option>
+      <option value="4">★★★★</option>
+      <option value="3">★★★</option>
+    </select>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <section class="content-grid">
+      <div class="card">
+        <img src="./images/hotel.jpg"alt="Hotel" />
+        <h3>Luxury Hotel</h3>
+        <p>★★★★☆</p>
+        <p>Enjoy a 5-star stay in the city center.</p>
+      </div>
+      <div class="card">
+        <img src="./images/restrarunt.jpg" alt="Restaurant" />
+        <h3>Top Restaurant</h3>
+        <p>★★★★★</p>
+        <p>Fine dining with gourmet meals and wine.</p>
+      </div>
+      <div class="card">
+        <img src="./images/beach.jpg" alt="Destination" />
+        <h3>Beach Resort</h3>
+        <p>★★★☆☆</p>
+        <p>Relax by the ocean in a tropical paradise.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+    </div>
+    <div class="social-icons">
+      <a href="#">🌐</a>
+      <a href="#">📘</a>
+      <a href="#">📸</a>
+    </div>
+  </footer>
+
+</body>
+</html>
